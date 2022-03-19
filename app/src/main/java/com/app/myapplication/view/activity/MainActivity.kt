@@ -26,7 +26,7 @@ class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
     }
 
     override fun doWork() {
-
+        viewModel.showMess("hahahahaha")
     }
 
 }
